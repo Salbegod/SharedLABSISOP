@@ -1,0 +1,14 @@
+ #!/bin/sh
+  case "$1" in
+  	start)
+  		/usr/bin/trab.py
+  		;;
+  	stop)
+  		exit 1
+  		;;
+  	*)
+  		exit 1
+  		;;
+  esac
+  
+  exit 0
